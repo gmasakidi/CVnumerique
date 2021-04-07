@@ -1,0 +1,96 @@
+body
+{
+    background-image: url(sac.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+#CenteredTitle
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#DownIcon
+{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#Background
+{
+    display: flex;
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    position: relative; 
+    background-color: #715241;
+    z-index: 99;
+    position: sticky;
+    top: 1px;
+    margin-top: 30px;
+}
+#navbar
+{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align:center;
+    width: 100%;
+}
+#navbar li
+{
+    float: left;
+    height: auto;
+    width: 16.66%;
+    text-align: center; 
+    list-style: none; 
+    font:normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+}
+#navbar a
+{							
+    padding: 18px 0;  
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none; 
+    color: white; 
+    display: block;
+}
+#navbar li:hover, a:hover 
+{
+    background-color: #553E31;
+}
+#page2
+{
+    background: #EBECF0;
+    padding: 10px; 
+    display: flex;
+}
+
+h2
+{
+    font-size: 35px;
+    width: 50%;
+}
+#profil
+{
+    float: left;
+    width: 20%;
+    height: 50%;
+    margin-top: 9%;
+    box-shadow: inset 0 0 1em gold, 0 0 2em #A47961;
+}
+#sectionAbout
+{
+    margin-top : 20px;
+    padding: 30px;
+}
+#sectionAbout p
+{
+    color: #553E31;
+}
