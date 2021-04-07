@@ -75,15 +75,19 @@ body
 h2
 {
     font-size: 35px;
-    width: 50%;
+    width: 22%;
+    border-radius: 10px / 5px;
+    color: white;
+    background-color: #F5A651
 }
 #profil
 {
     float: left;
-    width: 20%;
-    height: 50%;
-    margin-top: 9%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
     box-shadow: inset 0 0 1em gold, 0 0 2em #A47961;
+    margin-bottom: 20px;
 }
 #sectionAbout
 {
@@ -91,6 +95,16 @@ h2
     padding: 30px;
 }
 #sectionAbout p
+{
+    color: #553E31;
+}
+#ZoneImg
+{
+    width: 80%;
+    padding-top: 5%;
+    height : 50%;
+}
+#ZoneImg p
 {
     color: #553E31;
 }
