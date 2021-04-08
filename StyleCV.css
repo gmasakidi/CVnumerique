@@ -72,13 +72,14 @@ body
     display: flex;
 }
 
-h2
+#sectionAbout h2
 {
     font-size: 35px;
-    width: 22%;
-    border-radius: 10px / 5px;
+    width: 28%;
+    border-radius: 4px;
     color: white;
-    background-color: #F5A651
+    background-color: #F5A651;
+    padding: 10px 30px;
 }
 #profil
 {
@@ -105,6 +106,150 @@ h2
     height : 50%;
 }
 #ZoneImg p
+{
+    color: #553E31;
+}
+#page3
+{
+    background: #F0E9E5;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#page3 h2
+{
+    font-size: 35px;
+    width: 20%;
+    border-radius: 4px;
+    color: white;
+    background-color: #F5A651;
+    text-align: center;
+    margin-left: 40%;
+    padding: 10px 30px;
+
+}
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 8%;
+  }
+  
+  .single-chart {
+    width: 30%;
+    justify-content: space-around ;
+    margin-right: 20px;
+  }
+  
+  .circular-chart {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #F5A651;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #4CC790;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #3c9ee5;
+  }
+  
+  .percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+  .skill
+  {
+    min-height: 180px;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .skill .name
+  {
+    width: 50%;
+    float: left;
+    min-height: 180px;
+    background-color: #715241;
+    z-index: 100;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+  }
+  .arrow
+  {
+    border-color: transparent transparent transparent #715241;
+    border-style: solid;
+    border-width: 9px;
+    width: 0;
+    height: 0;
+    float: right;
+    margin-right: -18px;
+    margin-top: 75px;
+    position: relative;
+  }
+  .label
+  {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+  }
+  .skill .label
+  {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 75px;
+    width: 100%;
+    float: left;
+  }
+  .skill .chart
+  {
+    z-index: 90;
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+#page3 p
 {
     color: #553E31;
 }
