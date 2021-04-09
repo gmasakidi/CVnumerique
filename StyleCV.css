@@ -539,3 +539,44 @@ body
   {
       color: white;
   }
+  #page5
+  {
+    background-color: #EBECF0;
+    padding: 10px;
+  }
+  #page5 h2
+  {
+      font-size: 45px;
+      margin-bottom: 40px;
+  }
+  #contact
+  {
+    text-align: center;
+    color:#553E31;
+    margin-bottom: 60px;
+  }
+  #entredeux
+  {
+      text-align: center;
+      display: flex;
+  }
+  .carré
+  {
+      color: white;
+      background-color:#F5A651 ;
+      border-radius: 10px;
+      margin-left: 170px;
+      width : 15%;
+      padding: 35px 20px;
+      font-size: 20px;
+  }
+.carré .fas
+{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.carré .far
+{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
