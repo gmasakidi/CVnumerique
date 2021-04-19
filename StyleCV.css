@@ -16,9 +16,18 @@ body
 }
 #DownIcon
 {
+  text-align: center;
+}
+#DownIcon i
+{
     font-size: 40px;
     color: white;
-    text-align: center;
+    
+    transition: transform 250ms;
+}
+#DownIcon i:hover
+{
+  transform: translateY(-10px);
 }
 #Background
 {
@@ -52,6 +61,7 @@ body
     font:normal bold 13px/1em Arial, Verdana, Helvetica;
     padding: 0;
     margin: 0;
+
 }
 #navbar a
 {							
@@ -60,6 +70,7 @@ body
     text-decoration: none; 
     color: white; 
     display: block;
+    transition: 0.3s;
 }
 #navbar li:hover, a:hover 
 {
@@ -575,11 +586,23 @@ body
 {
     margin-bottom: 20px;
     font-size: 50px;
+    transition: transform 500ms;
+    will-change: transform;
+}
+.carré .fas:hover
+{
+  transform: translateY(5px);
 }
 .carré .far
 {
     margin-bottom: 20px;
     font-size: 50px;
+    transition: transform 500ms;
+    will-change: transform;
+}
+.carré .far:hover
+{
+    transform: translateY(5px);
 }
 footer
 {
