@@ -74,7 +74,29 @@ if (window.innerWidth > 600) {
         reset: true
     });
 };
- 
+
+sr.reveal('#photo', {
+    origin: 'bottom' ,
+    distance: '300px' ,
+    duration:2000,
+    reset: false
+});
+
+// Formation animation
+if (window.innerWidth > 600) {
+    sr.reveal('.details2', {
+        origin: 'right' ,
+        distance: '200px' ,
+        duration:1000,
+        reset: true
+    });
+    sr.reveal('.details1', {
+        origin: 'left' ,
+        distance: '200px',
+        duration:1000,
+        reset: true
+    });
+};
 
 // var svg = document.querySelector('svg');
 

@@ -454,3 +454,44 @@ footer
 {
   color:rgba(129, 129, 128, 0.75)
 }
+.details1, .details2 {
+  width: 39%;
+  float: left;
+  height : 120px;
+  background-color:#fff;
+  border-radius: 5px;
+  position: relative;
+  z-index: 100;
+  display: table;
+}
+.year {
+  background-color: #715241;
+  height: 120px;
+  border-radius: 5px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  float: left;
+  width: 20%;
+  z-index: 500;
+  position: relative;
+  display: table;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #F5A651;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  position: absolute;
+}
+.leftDot {
+  left: -20px;
+  top: 44px;
+}
+.rightDot {
+  top: 44px;
+  right: -20px;
+}
+.education {
+  min-height: 120px;
+}
