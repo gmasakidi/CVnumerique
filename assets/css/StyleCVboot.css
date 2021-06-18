@@ -9,15 +9,71 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  }
+  
+  blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 5rem;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+  }
+  
+  blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  }
+   
+  blockquote cite:before {
+  content: "\2014 \2009";
+  }
 
+@media screen and (min-width: 769px) {
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: 160px;
+    top: -20px;
+    color: #7a7a7a;
+  }
+}
+@media screen and (max-width: 1200px){
+  blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 5rem;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+    }
+}
 @media screen and (min-width: 375px) and (max-width: 1024px){
   body
   {
-      background-image: url("../img/Sac.jpg");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position : center;
+    background-image: url("../img/Sac.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -305,12 +361,21 @@ nav
 .timeline2 ul li::after {
   /* transition: background .5s ease-in-out;
   -webkit-transition: background .5s ease-in-out; */
+  height: 30px;
+  width: 30px;
   background-color: #F5A651;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  position: absolute;
 }
 
 .timeline2 ul li.in-view::after {
-  background: #F5A651;
-  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  background-color: #F5A651;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  position: absolute;
 }
 
 /* .timeline2 ul li div {
@@ -429,7 +494,7 @@ nav
   }
   
 }
-#row5
+#row7
 {
   background-color: #EBECF0;
 }
@@ -439,7 +504,7 @@ nav
   background-color:#F5A651;
   border-radius: 15px;
 }
-#row6 {
+#row5 {
   background-color: #F0E9E5;
 }
 footer
@@ -452,7 +517,7 @@ footer
 }
 .textOpacity
 {
-  color:rgba(129, 129, 128, 0.75)
+  color:rgba(129, 129, 128, 0.75);
 }
 .details1, .details2 {
   width: 39%;
@@ -494,4 +559,60 @@ footer
 }
 .education {
   min-height: 120px;
+}
+.details1 p, .details2 p {
+  font-size: 0.75rem;
+}
+.details1:first-child {
+  color: #715241;
+}
+.card-body {
+  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media screen and (max-width:650px){
+  .education {
+    display: table;
+  }
+  .details1, .details2, .year {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+.leftDot {
+    position: absolute;
+    top: -25px;
+    left: 45%;
+  }
+.rightDot {
+    right: 45%;
+    top:  114px;
+  }
+.year p{
+    margin-top: 7%;
+  }
+}
+#row6
+{
+   background-color: white;
+}
+.card-body i:hover {
+  top: 6px;
+}
+.card-body i {
+	transition-property: top;
+	-webkit-transition-property: top;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+	top: 0;
+	position: relative;
+}
+footer a {
+  color :#fff;
+  transition-duration: 500ms;
+}
+footer a:hover {
+  color :#F5A651;
 }

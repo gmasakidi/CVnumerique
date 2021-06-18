@@ -83,7 +83,7 @@ sr.reveal('#photo', {
 });
 
 // Formation animation
-if (window.innerWidth > 600) {
+if (window.innerWidth > 650) {
     sr.reveal('.details2', {
         origin: 'right' ,
         distance: '200px' ,
