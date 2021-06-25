@@ -8,6 +8,9 @@ body
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: @iphone-screen) {
+      background-attachment: scroll;
+  }
 }
 blockquote {
   font-family: Georgia, serif;
@@ -82,7 +85,7 @@ blockquote {
     background-image: url("../img/Sac.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    background-size: cover;
     background-position : center;
   }
 }
