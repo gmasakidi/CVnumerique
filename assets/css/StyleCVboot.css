@@ -82,6 +82,7 @@ blockquote {
     background-image: url("../img/Sac.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
     background-position : center;
   }
 }
