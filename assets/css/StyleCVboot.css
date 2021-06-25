@@ -76,6 +76,16 @@ blockquote {
     background-position : center;
   }
 }
+@media screen and (max-width: 375px) {
+  body
+  {
+    background-image: url("../img/Sac.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position : center;
+  }
+}
 @media screen and (min-width: 768px) {
 #cardDescription
 {
@@ -454,7 +464,7 @@ nav
   
   .timeline2 ul li:nth-child(odd) .time {
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: -38px;
     width: 120px;
     
@@ -471,8 +481,8 @@ nav
   .timeline2 ul li:nth-child(even) .time {
     position: absolute;
     top: 108px;
-    left: -38px;
-    width: 120px;
+    left: -42px;
+    width: 130px;
     
     transform: rotate(-90deg);
     -webkit-transform:rotate(270deg);
