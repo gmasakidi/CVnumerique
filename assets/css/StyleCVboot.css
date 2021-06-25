@@ -76,7 +76,7 @@ blockquote {
     background-position : center;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   body
   {
     background-image: url("../img/Sac.jpg");
@@ -466,7 +466,7 @@ nav
     position: absolute;
     top: 130px;
     left: -38px;
-    width: 120px;
+    width: 130px;
     
     transform: rotate(-90deg);
     -webkit-transform:rotate(270deg);
