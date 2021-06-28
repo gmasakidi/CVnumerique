@@ -1,6 +1,9 @@
-#row1
+#section1
 {
     height: 92vh;
+}
+#p1 {
+  text-shadow: rgb(8, 8, 8) 1px 0 10px;
 }
 body
 {
@@ -76,21 +79,21 @@ blockquote {
     background-position : center;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (hover: none) {
   body
   {
     background-image: url("../img/Sac.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position : center;
   }
 }
 @media screen and (min-width: 768px) {
-#cardDescription
-{
-  text-align : start;
-}
+  #cardDescription
+  {
+    text-align : start;
+  }
 }
 nav
 {
@@ -106,11 +109,11 @@ nav
   max-width: 1200px;
   margin: auto;
 }
-#row2
+#section2
 {
     background-color: #EBECF0;
 }
-#row4
+#section4
 {
    background-color: white;
 }
@@ -224,7 +227,7 @@ nav
     width: 50%;
     text-align: center;
   }
-#row3
+#section3
 {
     background-color: #F0E9E5;
 }
@@ -504,7 +507,7 @@ nav
   }
   
 }
-#row7
+#section7
 {
   background-color: #EBECF0;
 }
@@ -514,7 +517,7 @@ nav
   background-color:#F5A651;
   border-radius: 15px;
 }
-#row5 {
+#section5 {
   background-color: #F0E9E5;
 }
 footer
@@ -604,7 +607,7 @@ footer
     margin-top: 7%;
   }
 }
-#row6
+#section6
 {
    background-color: white;
 }
