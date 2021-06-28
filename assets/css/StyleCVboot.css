@@ -587,6 +587,14 @@ footer
   padding-right: 25px;
 }
 @media screen and (max-width:650px){
+  .dot {
+    height: 40px;
+    width: 40px;
+    background-color: #F5A651;
+    border: 7px solid #fff;
+    border-radius: 20px;
+    position: absolute;
+  }
   .education {
     display: table;
   }
@@ -596,12 +604,12 @@ footer
   }
 .leftDot {
     position: absolute;
-    top: -25px;
-    left: 45%;
+    top: -32px;
+    left: 42%;
   }
 .rightDot {
-    right: 45%;
-    top:  114px;
+    right: 43%;
+    top:  110px;
   }
 .year p{
     margin-top: 7%;
