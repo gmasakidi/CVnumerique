@@ -79,7 +79,7 @@ blockquote {
     background-position : center;
   }
 }
-@media screen and (hover: none) {
+@media screen and (max-width: 375px) {
   body
   {
     background-image: url("../img/Sac.jpg");
