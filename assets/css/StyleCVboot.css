@@ -69,7 +69,7 @@ blockquote {
     color: #7a7a7a;
     }
 }
-@media screen and (min-width: 375px) and (max-width: 1024px){
+@media screen and (min-width: 377px) and (max-width: 1024px){
   body
   {
     background-image: url("../img/Sac.jpg");
