@@ -73,6 +73,11 @@ if (window.innerWidth > 600) {
         duration:1000,
         reset: true
     });
+}else{
+    sr.reveal('.skill', {
+        duration:1000 ,
+        reset: true
+    }, 500);
 };
 
 sr.reveal('#photo', {
@@ -83,20 +88,20 @@ sr.reveal('#photo', {
 });
 
 // Formation animation
-if (window.innerWidth > 650) {
-    sr.reveal('.details2', {
-        origin: 'right' ,
-        distance: '200px' ,
-        duration:1000,
-        reset: true
-    });
-    sr.reveal('.details1', {
-        origin: 'left' ,
-        distance: '200px',
-        duration:1000,
-        reset: true
-    });
-};
+
+sr.reveal('.details2', {
+    origin: 'right' ,
+    distance: '200px' ,
+    duration:1000,
+    reset: true
+});
+sr.reveal('.details1', {
+    origin: 'left' ,
+    distance: '200px',
+    duration:1000,
+    reset: true
+});
+
 
 // var svg = document.querySelector('svg');
 

@@ -83,18 +83,10 @@ blockquote {
   body
   {
     background-image: url("../img/Sac.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    top: 0;
-    margin-top: -100vh;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(45deg, red, blue);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position : center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -117,13 +109,14 @@ nav
   max-width: 1200px;
   margin: auto;
 }
-#section2
+#aboutSection
 {
     background-color: #EBECF0;
 }
-#section4
+#experienceSection
 {
    background-color: white;
+   overflow:hidden;
 }
 .badge
 {
@@ -235,9 +228,10 @@ nav
     width: 50%;
     text-align: center;
   }
-#section3
+#skillsSection
 {
     background-color: #F0E9E5;
+    overflow:hidden;
 }
 /* CSS TIMELINE */
 /* .timeline2 {
@@ -515,7 +509,7 @@ nav
   }
   
 }
-#section7
+#contactSection
 {
   background-color: #EBECF0;
 }
@@ -525,8 +519,9 @@ nav
   background-color:#F5A651;
   border-radius: 15px;
 }
-#section5 {
+#degreeSection {
   background-color: #F0E9E5;
+  overflow:hidden;
 }
 footer
 {
@@ -623,7 +618,7 @@ footer
     margin-top: 7%;
   }
 }
-#section6
+#achievementsSection
 {
    background-color: white;
 }
@@ -644,4 +639,7 @@ footer a {
 }
 footer a:hover {
   color :#F5A651;
+}
+footer p {
+  font-size : 0.8rem;
 }
