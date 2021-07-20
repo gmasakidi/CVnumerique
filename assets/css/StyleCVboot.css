@@ -87,6 +87,7 @@ blockquote {
   body
   {
     background-image: url("../img/Sac.jpg");
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-position : center;
